@@ -1,11 +1,27 @@
-# genai
+# Generative AI with Cloudera AI
 
-In this lab, we will go through LLM Chatbot AMP using Cloudera Machine Learning (CML)
+Unlock the power of Generative AI by leveraging Cloudera’s integrated platform—designed to accelerate model development, streamline deployment, and ensure enterprise-grade security and governance. This guide will walk you through the key components of Cloudera AI and provide hands-on labs to kickstart your journey.
 
-1. On login, you will be taken to Trials Home Page
-2. Click, **Start Trial** go to your Machine Learning Workspace
-3. [Here](https://app.getreprise.com/launch/MXxjDe6/) is the Reprise demo with step by step tutorial for the LLM Chatbot
+## About Cloudera AI
 
-[Here](https://github.com/cloudera/CML_AMP_LLM_Chatbot_Augmented_with_Enterprise_Data) is more detailed information of the LLM Chatbot
+Cloudera AI is a unified platform that supports the entire machine learning and AI lifecycle. With its cloud-native, containerized architecture, it empowers data science teams to:
+- **Develop and experiment:** Use the AI Workbench for coding, training, and testing your models.
+- **Manage and govern models:** Store, version, and track models centrally with the AI Registry.
+- **Deploy at scale:** Transition models into production quickly and securely via the AI Inference Service, powered by NVIDIA NIM microservices.
+
+
+## About the Labs
+
+1. **Deploy an LLM Chatbot with an AMP**
+   Leverage an Accelerator for ML Project (AMP) to quickly deploy an LLM Chatbot augmented by Enterprise data. This lab will:
+   - Guide you through a one-click deployment process.
+   - Demonstrate how to integrate enterprise data for context-aware responses.
+   👉 [Start Here](01_llmchatbot.md)
+
+2. **Build Your Own AI Application**
+   Explore how to leverage Cloudera's AI Inference service for enterprise-grade LLM deployment. In this lab, you will:
+   - Import and deploy a model from the Cloudera Model Hub.
+   - Integrate the deployed model to your AI Application.
+   👉 [Start Here](02_aiinf.md)
 
 Send a note to cdptrial@cloudera.com for any questions you have!
